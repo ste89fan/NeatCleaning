@@ -39,17 +39,6 @@ fieldCounter.forEach(function(item) {
 
 })
 
-// checkboxButton.forEach(function(item) {
-//     item.addEventListener("click",function() {
-//         if(revealField.style.display == "flex") {
-//             revealField.style.display = "none";
-//         }
-//        else {
-//             revealField.style.display = "flex";
-//             }
-//         })
-//     })
-
 checkboxWraper.forEach(function(item) {
     var revealField = item.querySelector(".reveal-hidden-field");
     var checkboxButton = item.querySelector(".checking-button");
